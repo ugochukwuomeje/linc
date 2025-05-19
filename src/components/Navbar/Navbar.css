@@ -1,0 +1,42 @@
+.custom-navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-logo {
+  height: 40px; /* or try 45px */
+  width: auto;
+  margin-right: 10px;
+}
+
+
+.navbar-brand-text {
+  font-weight: bold;
+  color: #0c0c1c;
+  font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 1.2rem;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+/* .cash-offer-btn {
+  background-color: #3599db;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.cash-offer-btn:hover {
+  background-color: #2980b9;
+} */

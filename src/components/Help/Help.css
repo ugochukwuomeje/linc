@@ -1,0 +1,42 @@
+/* simple overrides / accents */
+.help-hero {
+  background: #edf4ff;
+}
+
+.icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrap svg {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.help-banner {
+  background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+}
+/* CTA section */
+.help-cta .btn-primary {
+  background: #1d4ed8;           /* match site blue */
+  border: none;
+}
+.help-cta .btn-primary:hover {
+  background: #1e40af;
+}
+
+/* stats strip */
+.help-stats {
+  background: #f8fafc;
+}
+
+.stat-icon {
+  letter-spacing: 0.1rem;        /* space stars a bit */
+  line-height: 1;
+}
+

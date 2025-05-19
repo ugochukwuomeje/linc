@@ -1,0 +1,371 @@
+/* ───────── Hero ───────── */
+
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;      /* fills most of viewport */
+  overflow: hidden;
+  color: #fff;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(45%);  /* darken so text pops */
+  z-index: -1;
+}
+
+.hero-content {
+  padding: 8rem 0 4rem;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons .cta-primary {
+  background-color: #2d7bff;
+  border: none;
+  border-radius: 50px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+.hero-buttons .cta-primary:hover {
+  background-color: #1d63da;
+}
+
+.hero-buttons .cta-secondary {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+}
+
+.hero-buttons .cta-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hero-badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* ───────── 3 Simple Steps ───────── */
+
+.steps-wrapper {
+  background: #fff;
+  padding: 4.5rem 0;
+}
+
+.steps-title {
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.step-icon {
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #2d7bff;
+  color: #fff;
+  font-size: 2rem;  /* icon size */
+}
+
+.step-heading {
+  font-weight: 600;
+}
+
+.step-text {
+  max-width: 18rem;
+  margin: 0.5rem auto 0;
+  color: #666;
+}
+
+
+/* ───────── Offer + Form ───────── */
+
+.offer-wrapper {
+  background: #f8f9fa;           /* very light gray for contrast */
+  padding: 5rem 0;
+}
+
+.offer-title {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.offer-lead {
+  max-width: 32rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.offer-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offer-bullets li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
+.offer-bullets i {
+  color: #2d7bff;
+  font-size: 1.25rem;
+}
+
+/* ---- form ---- */
+
+.value-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.value-form input,
+.value-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  outline: none;
+  transition: box-shadow 0.15s ease;
+}
+
+.value-form input:focus,
+.value-form textarea:focus {
+  box-shadow: 0 0 0 0.15rem rgba(45, 123, 255, 0.25);
+  border-color: #2d7bff;
+}
+
+.value-submit {
+  background-color: #2d7bff;
+  border: none;
+  padding: 0.9rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.value-submit:hover {
+  background-color: #1d63da;
+}
+
+/* ───────── Trust Section ───────── */
+.trust-wrapper {
+  background: #fff;
+  padding: 5rem 0 4rem;
+}
+
+.trust-title {
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.trust-icon {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  border-radius: 50%;
+  background: #e9f1ff;         /* soft blue tint */
+  color: #2d7bff;
+  font-size: 2.25rem;
+}
+
+.trust-heading {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.trust-text {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0 auto;
+}
+
+/* ───────── Testimonials ───────── */
+.reviews-wrapper {
+  background: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.reviews-title {
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 1.75rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.review-head img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-head h6 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.stars {
+  font-size: 0.9rem;
+  color: #ffc107;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.review-text {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-top: auto;  /* pushes to bottom for equal height cards */
+}
+
+/* ───────── CTA Banner ───────── */
+.cta-wrapper {
+  background: #2d7bff;
+  color: #fff;
+  padding: 5rem 0 4.5rem;
+}
+
+.cta-title {
+  font-weight: 700;
+}
+
+.cta-text {
+  font-size: 1.05rem;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.cta-btn {
+  background: #fff;
+  color: #2d7bff;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.cta-btn:hover {
+  background: #e9f1ff;
+  color: #1d63da;
+}
+
+/* ───────── Footer ───────── */
+.site-footer {
+  background: #061227;
+  color: #d1d5db;
+  padding: 4.5rem 0 0;
+  font-size: 0.95rem;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  color: #2d7bff;
+  margin-right: 0.6rem;
+}
+
+.footer-heading {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 0.65rem;
+}
+
+.footer-links a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-contact i {
+  color: #2d7bff;
+  margin-right: 0.5rem;
+}
+
+.newsletter-form input {
+  flex: 1;
+  background: #0d1b34;
+  border: 1px solid #263149;
+  padding: 0.65rem 0.9rem;
+  border-radius: 6px;
+  color: #d1d5db;
+}
+
+.newsletter-form input::placeholder {
+  color: #7b849c;
+}
+
+.newsletter-form button {
+  background: #2d7bff;
+  border: none;
+  padding: 0 1.2rem;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.newsletter-form button:hover {
+  background: #1d63da;
+}
