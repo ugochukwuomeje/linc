@@ -15,7 +15,7 @@
 .about__hero {
   text-align: center;
   padding: 5rem 1rem;
-  background: #eaf6f5;          /* subtle mint */
+  background: #eaf6f5; /* subtle mint */
 }
 
 .about__hero h1 {
@@ -47,6 +47,12 @@
 .about__text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+.about__text b {
+  font-size: larger;
+  color: #2292f6;
+  font-weight: 700;
 }
 
 .about__image img {
