@@ -1,0 +1,70 @@
+/* ───────── Offer + Form ───────── */
+
+.offer-wrapper {
+  background: #f8f9fa;           /* very light gray for contrast */
+  padding: 5rem 0;
+}
+
+.offer-title {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.offer-lead {
+  max-width: 32rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.offer-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offer-bullets li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
+.offer-bullets i {
+  color: #2d7bff;
+  font-size: 1.25rem;
+}
+.value-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.value-form input,
+.value-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  outline: none;
+  transition: box-shadow 0.15s ease;
+}
+
+.value-form input:focus,
+.value-form textarea:focus {
+  box-shadow: 0 0 0 0.15rem rgba(45, 123, 255, 0.25);
+  border-color: #2d7bff;
+}
+
+.value-submit {
+  background-color: #2d7bff;
+  border: none;
+  padding: 0.9rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.value-submit:hover {
+  background-color: #1d63da;
+}

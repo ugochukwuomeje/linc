@@ -16,3 +16,7 @@
 .social-links a:hover {
   color: #fff;
 }
+
+.newsletter-form input {
+    width: 13px;
+  }

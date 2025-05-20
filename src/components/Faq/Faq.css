@@ -1,0 +1,30 @@
+/* ───────── CTA Banner ───────── */
+.cta-wrapper {
+  background: #2d7bff;
+  color: #fff;
+  padding: 5rem 0 4.5rem;
+}
+
+.cta-title {
+  font-weight: 700;
+}
+
+.cta-text {
+  font-size: 1.05rem;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.cta-btn {
+  background: #fff;
+  color: #2d7bff;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.cta-btn:hover {
+  background: #e9f1ff;
+  color: #1d63da;
+}
