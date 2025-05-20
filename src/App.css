@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+#how-it-works,
+#why-choose-us,
+#testimonials,
+#faq {
+  scroll-margin-top: 100px; /* space for sticky navbar */
+}
