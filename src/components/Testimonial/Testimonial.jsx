@@ -16,58 +16,76 @@ const Testimonial = () => (
 
         <Row className="gy-4">
           {/* Testimonial 1 */}
-          <Col lg={4} md={6}>
+          <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
                 <img src={person1} alt="" />
                 <div>
-                  <h6>Tasha R. -Buford, GA</h6>
+                  <h6>– Tonya H., Decatur, GA</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
               <p className="review-text">
-                “I was overwhelmed trying to sell my late aunt’s house, and
-                didn’t know where to start. Linc Home Solutions came in like
-                family. They handled everything from the offer to helping me
-                move forward. It wasn’t just business, it was peace of mind.”
+                "Linc Home Solutions made what I thought would be a nightmare
+                absolutely painless. I was behind on mortgage payments and
+                stressed about foreclosure. Their team was honest, respectful,
+                and had an offer to me within 24 hours. I was able to close in
+                less than two weeks — no repairs, no stress. "
               </p>
             </article>
           </Col>
 
           {/* Testimonial 2 */}
-          <Col lg={4} md={6}>
+          <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
                 <img src={person2} alt="" />
                 <div>
-                  <h6>Aarav & Priya S. – Atlanta, GA</h6>
+                  <h6>– A. Simmons, Stone Mountain, GA</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
               <p className="review-text">
-                “As new investors, we had no idea what to look for or who to
-                trust. Linc Home Solutions walked us through every step of our
-                first property deal. Transparent, fast, and super supportive
-                we’re already working on our second one with them!”
+                "I was skeptical at first. Too many people calling saying they
+                could buy my house fast. But when I talked to Linc, it felt
+                different. They didn’t make crazy promises — just real info and
+                an offer that actually made sense. It helped me move on, and I’m
+                thankful for that. "
               </p>
             </article>
           </Col>
 
           {/* Testimonial 3 */}
-          <Col lg={4} md={6}>
+          <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
                 <img src={person3} alt="" />
                 <div>
-                  <h6>Daniel M. – Lawrenceville, GA</h6>
+                  <h6>— Mike T., Stone Mountain</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
               <p className="review-text">
-                “I run multiple businesses and needed a team who could get me
-                off-market deals without the hassle. Linc delivered. They knew
-                exactly what I was looking for, brought vetted opportunities,
-                and helped me close fast. No fluff just results.”
+                "I got a job offer out of state and had to move fast. Linc gave
+                me an offer right away and worked around my schedule. No stress,
+                no games — just straight to the point. "
+              </p>
+            </article>
+          </Col>
+          <Col lg={3} md={6}>
+            <article className="review-card">
+              <div className="review-head">
+                <img src={person3} alt="" />
+                <div>
+                  <h6>– Carmen B., East Point, GA</h6>
+                  <div className="stars">★★★★★</div>
+                </div>
+              </div>
+              <p className="review-text">
+                "I had tried listing my house, but it sat for months. Too many
+                repairs and I couldn’t afford to fix anything. A friend told me
+                about Linc Home Solutions, and they made it simple. No cleaning,
+                no showings, just a straightforward offer and a quick closing. "
               </p>
             </article>
           </Col>

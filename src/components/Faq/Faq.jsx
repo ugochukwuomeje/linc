@@ -90,9 +90,9 @@ const Faq = () => (
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseSix"
+                data-bs-target="#panelsStayOpen-collapseSeven"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseSix"
+                aria-controls="panelsStayOpen-collapseSeven"
               >
                 <strong>What types of properties do you buy ?</strong>
               </button>
@@ -102,7 +102,7 @@ const Faq = () => (
               class="accordion-collapse collapse"
             >
               <div class="accordion-body" style={{ textAlign: "left" }}>
-                We buy: <br />- Inherited homes
+                <strong>We buy:</strong> <br />- Inherited homes
                 <br /> - Vacant or abandoned properties - Foreclosure or
                 pre-foreclosure homes <br />- Rentals with bad tenants <br />-
                 Fire-damaged or code-violating properties <br /> - Basically,

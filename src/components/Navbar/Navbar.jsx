@@ -19,8 +19,12 @@ const Navbar = () => {
           className="navbar-brand"
           style={{ cursor: "pointer" }}
         >
-          <img src={logo} alt="Linc Home Solutions" className="navbar-logo" />
-          <span className="navbar-brand-text">Linc Home Solutions</span>
+          <Link to="/">
+            <img src={logo} alt="Linc Home Solutions" className="navbar-logo" />
+          </Link>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <span className="navbar-brand-text">Linc Home Solutions</span>
+          </Link>
         </BootstrapNavbar.Brand>
 
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,24 +33,24 @@ const Navbar = () => {
           className="justify-content-end"
         >
           <Nav className="navbar-nav align-items-center">
-            <a className="nav-link" href="/#how-it-works">
+            <Link className="nav-link" to="/how-it-works">
               How It Works
-            </a>
+            </Link>
             <Link className="nav-link" to="/help">
               Who We Help
             </Link>
             <a className="nav-link" href="/#why-choose-us">
               Why Choose Us
             </a>
-            <a className="nav-link" href="/#testimonials">
+            <Link className="nav-link" to="/testimonial">
               Testimonials
-            </a>
+            </Link>
             <Link className="nav-link" to="/about">
               About Us
             </Link>
-            <a className="nav-link" href="/#faq">
+            <Link className="nav-link" to="/faq">
               FAQ
-            </a>
+            </Link>
             <Button
               href="/#offer"
               style={{
