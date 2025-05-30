@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Testimonial.css";
-import person1 from "../../assets/home/p1.jpg";
-import person2 from "../../assets/home/p2.jpg";
-import person3 from "../../assets/home/p3.jpg";
+// import person1 from "../../assets/home/p1.jpg";
+// import person2 from "../../assets/home/p2.jpg";
+// import person3 from "../../assets/home/p3.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css"; // once per app is enough
 
@@ -19,9 +19,9 @@ const Testimonial = () => (
           <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
-                <img src={person1} alt="" />
+                <span style={{ background: "purple" }}>T</span>
                 <div>
-                  <h6>– Tonya H., Decatur, GA</h6>
+                  <h6>Tonya H., Decatur, GA</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
@@ -39,9 +39,9 @@ const Testimonial = () => (
           <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
-                <img src={person2} alt="" />
+                <span style={{ background: "blue" }}>A</span>
                 <div>
-                  <h6>– A. Simmons, Stone Mountain, GA</h6>
+                  <h6>A. Simmons, Stone Mountain, GA</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
@@ -59,9 +59,9 @@ const Testimonial = () => (
           <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
-                <img src={person3} alt="" />
+                <span style={{ background: "violet" }}>M</span>
                 <div>
-                  <h6>— Mike T., Stone Mountain</h6>
+                  <h6>Mike T., Stone Mountain</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
@@ -75,9 +75,9 @@ const Testimonial = () => (
           <Col lg={3} md={6}>
             <article className="review-card">
               <div className="review-head">
-                <img src={person3} alt="" />
+                <span style={{ background: "green" }}>C</span>
                 <div>
-                  <h6>– Carmen B., East Point, GA</h6>
+                  <h6>Carmen B., East Point, GA</h6>
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
