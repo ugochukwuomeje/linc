@@ -96,7 +96,8 @@ const About = () => {
         <div className="about__teamGrid container">
           {team.map((m, i) => (
             <article key={i} className="about__card">
-              <img src={m.img} alt={m.name} />
+              {/* <img src={m.img} alt={m.name} /> */}
+              <span style={{ background: "purple" }}>{m.name.charAt(0)}</span>
               <h3>{m.name}</h3>
               <p className="role">{m.role}</p>
               <p className="blurb">{m.blurb}</p>

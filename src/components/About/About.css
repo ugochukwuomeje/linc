@@ -92,6 +92,18 @@
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
 }
 
+.about__card span {
+  font-size: 2em;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  height: 2em;
+  width: 2em;
+  border-radius: 50px;
+  display: inline-block;
+}
+
 .about__card img {
   width: 88px;
   height: 88px;
