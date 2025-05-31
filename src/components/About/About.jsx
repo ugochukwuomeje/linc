@@ -89,24 +89,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* team --------------------------------------------------------------- */}
-      <div className="about__team">
-        <h2>A Team That Cares</h2>
-
-        <div className="about__teamGrid container">
-          {team.map((m, i) => (
-            <article key={i} className="about__card">
-              {/* <img src={m.img} alt={m.name} /> */}
-              <span style={{ background: "purple" }}>{m.name.charAt(0)}</span>
-              <h3>{m.name}</h3>
-              <p className="role">{m.role}</p>
-              <p className="blurb">{m.blurb}</p>
-            </article>
-          ))}
-        </div>
-      </div>
-
-      {/* CTA ---------------------------------------------------------------- */}
       <div className="about__cta container">
         <h2>Let's Talk About Your Home</h2>
         <p>
